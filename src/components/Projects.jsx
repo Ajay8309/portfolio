@@ -3,6 +3,23 @@ import { Folder, ExternalLink, Github, Star, GitFork } from 'lucide-react'
 const Projects = () => {
     const projects = [
         {
+            title: 'DecodeYourLifeStyle - Wellness Platform',
+            description: 'A modern, full-stack wellness and lifestyle platform. Features a comprehensive blog system with advanced text editing, user authentication, secure admin dashboard for content management, and a highly responsive, aesthetically pleasing interface. Built with a focus on performance, SEO, and seamless user experience.',
+            image: '/dyl-preview.png',
+            tags: ['React', 'Node.js', 'MongoDB', 'Express', 'TailwindCSS', 'Framer Motion', 'JWT', 'Nodemailer'],
+            features: [
+                'Dynamic blog system with rich text editor (Quill)',
+                'Secure admin panel for content management',
+                'JWT-based authentication & protected routes',
+                'Email notification system using Nodemailer',
+                'Smooth animations with Framer Motion',
+                'Responsive design with modern aesthetics',
+            ],
+            github: 'https://github.com/Ajay8309/DecodeYourLifeStyle-Modern',
+            live: 'https://decodeyourlife.in',
+            featured: true,
+        },
+        {
             title: 'Maali - E-Commerce Platform',
             description: 'A production-ready, full-stack e-commerce platform for plants and gardening services built from scratch. Features a complete shopping experience with product catalog, advanced cart system, multiple payment options (Razorpay + Manual UPI), real-time order tracking, comprehensive admin dashboard with analytics, and a unique "Book a Maali" (gardener) service with worker assignment system. Built with enterprise-grade security including JWT authentication, rate limiting, input validation with Zod, MongoDB injection protection, and Redis caching for optimal performance.',
             image: '/maali-preview.png',
